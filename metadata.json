@@ -1,0 +1,8 @@
+{
+  "name": "Gesturify - Indian Sign Language Platform",
+  "description": "An AI-powered web platform for two-way communication and learning of Indian Sign Language (ISL). It features speech-to-ISL translation, ISL-to-speech recognition via webcam, and an interactive AI coach to learn ISL.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
