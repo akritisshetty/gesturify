@@ -78,11 +78,17 @@ const SpeechToISL: React.FC = () => {
             {animations.map((word, index) => (
               <div key={index} className="flex flex-col items-center bg-white p-2 rounded-md shadow-sm text-center">
                 <div className="w-full aspect-square bg-gray-200 rounded animate-pulse">
-                    <img 
+                    {/* REMOVED THE IMG TAG HERE */}
+                    {/* You can add your actual image source here when ready */}
+                    {/* <img 
                         src={`https://picsum.photos/seed/${word.replace(/\s/g, '')}/200`} 
                         alt={`Animation for ${word}`} 
                         className="w-full h-full object-cover rounded" 
-                    />
+                    /> */}
+                    {/* This div will act as the empty placeholder */}
+                    <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm">
+                      Image Placeholder
+                    </div>
                 </div>
                 <p className="mt-2 font-medium text-xs text-text-primary h-8 flex items-center">{word}</p>
               </div>
